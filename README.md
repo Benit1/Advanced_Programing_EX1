@@ -38,7 +38,7 @@
 
  
 
- examples:
+## examples:
  ![image](https://github.com/Benit1/Advanced_Programing_EX1/assets/110784868/9b7448c9-e067-45a2-91d7-f534d034d8d0)
 in this picture you can see for example the command $? which return 1 because the "if" conditaion fails and its prints "b"
 so the output will be 1.
