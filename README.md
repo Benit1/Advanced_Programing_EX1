@@ -6,19 +6,33 @@
 ## Features
 
  **Execute Commands**: Supports executing commands with arguments.
+ 
  **Redirect Output**: Redirect output to files using `>`, `>>`, and `2>`.
+ 
  **Background Execution**: Run commands in the background using `&`.
+ 
  **Change Prompt**: Customize the shell prompt.
+ 
  **Echo Command**: Display arguments and variable values.
+ 
  **Print Status**: Print the status of the last executed command using `echo $?`.
+ 
  **Change Directory**: Change the current working directory using `cd`.
+ 
  **Repeat Last Command**: Repeat the last command using `!!`.
+ 
  **Exit Shell**: Exit the shell using `quit`.
+ 
  **Signal Handling**: Handle `Control-C` with a custom message.
+ 
  **Piped Commands**: Support for piped command execution.
+ 
  **Variables**: Set and use variables within the shell.
+ 
  **Read Command**: Read user input and store it in a variable.
+ 
  **History Navigation**: Navigate through command history using arrow keys.
+ 
  **Flow Control**: Support for basic flow control constructs like `if/else`.
 
  examples:
