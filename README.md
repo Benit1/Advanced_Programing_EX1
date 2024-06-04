@@ -44,9 +44,11 @@ in this picture you can see for example the command $? which return 1 because th
 so the output will be 1.
 
 to run the program we need to do this steps:
-first compile with the "make all" command.
+first compile the progrem with the "make all" command.
+
 after that we need to go inside our shell by doing ./myshell.
 inside the shell we created we can do our features.
+
 to exit the shell we need to write "quit".
 
 
