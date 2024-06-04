@@ -39,9 +39,18 @@
  
 
 ## examples:
- ![image](https://github.com/Benit1/Advanced_Programing_EX1/assets/110784868/9b7448c9-e067-45a2-91d7-f534d034d8d0)
-in this picture you can see for example the command $? which return 1 because the "if" conditaion fails and its prints "b"
-so the output will be 1.
+hello: if date | grep Mon
+hello: then
+hello: echo h
+hello: else
+hello: echo b
+hello: fi
+b
+hello: echo $?
+1
+we can see for example the command $? which return 1 because
+the "if" conditaion fails and its prints "b" so the output will be 1
+
 
 to run the program we need to do this steps:
 first compile the progrem with the "make all" command.
