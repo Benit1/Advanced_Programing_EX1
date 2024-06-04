@@ -40,13 +40,21 @@
 
 ## examples:
 hello: if date | grep Mon
+
 hello: then
+
 hello: echo h
+
 hello: else
+
 hello: echo b
+
 hello: fi
+
 b
+
 hello: echo $?
+
 1
 we can see for example the command $? which return 1 because
 the "if" conditaion fails and its prints "b" so the output will be 1
