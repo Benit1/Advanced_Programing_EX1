@@ -56,6 +56,7 @@ b
 hello: echo $?
 
 1
+
 we can see for example the command $? which return 1 because
 the "if" conditaion fails and its prints "b" so the output will be 1
 
