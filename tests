@@ -1,0 +1,69 @@
+//Test 1 Complex If-Else Block
+input:
+$person = david
+if $person = david
+then
+echo $person
+else
+echo error
+fi
+output:
+david
+
+//Test 2 Invalid Command
+input:
+invalidcommand
+output:
+execvp: No such file or directory
+
+//Test 3 Command with Multiple Pipes
+input:
+echo "Checking if its works" | grep "works" | wc -l
+output:
+1
+
+
+//Test 4 Create, Change Directory, Create Files, and List Contents
+input:
+mkdir newdir
+cd newdir
+touch Or Beni banana
+ls
+output:
+Or Beni banana
+
+//Test 5 Change Prompt with Control-C Handling
+input:
+prompt = Or
+output:
+Or
+input:
+(Press Control-C during execution)
+output:
+Or You typed Control-C!
+input:
+prompt = Beni
+output:
+Beni
+input:
+Beni ls
+output:
+cmake-build-debug  colors.txt  main.c    mydir   myshell    myshell.h  newdir     test
+CMakeLists.txt     file        makefile  myfile  myshell.c  myshell.o  task1.pdf  tests
+
+
+//Test 6 Read Command
+input:
+read name
+input:
+beni
+input:
+echo $name
+output:
+beni
+
+//Test 7
+
+
+
+
